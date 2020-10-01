@@ -47,13 +47,13 @@ function setupSquares(){
 			var clickedColor = this.style.background;
 			//compare color to pickedColor
 			if(clickedColor === pickedColor){
-				messageDisplay.textContent = "Correct!";
+				messageDisplay.textContent = "CORRECT!";
 				changeColors(clickedColor);
 				h1.style.background = pickedColor;
-				resetButton.textContent = "Play Again?";
+				resetButton.textContent = "Play Again?!";
 			} else {
 				this.style.background = "#232323";
-				messageDisplay.textContent = "Try Again";
+				messageDisplay.textContent = "Try Again!";
 			}
 		});
 	}
